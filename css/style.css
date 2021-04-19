@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-P6C864ssMzoRPWzR6biDqt24PWauZRhC0g&usqp=CAU) no-repeat center center/cover;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.wrapper {
+    width: 800px;
+    min-height: 800px;
+    margin: 0 auto;
+    background: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    border-bottom: 2px double blue;
+    border-left: 2px double blue;
+}
+
+.aside-bar {
+    width: 40%;
+}
+
+.header {
+    text-align: center;
+    background:  #ffffff;
+    padding-top: 20px;
+}
+
+.contacts {
+    background:  #ffffff;
+    padding-left: 40px;
+    padding-top: 20px;
+    line-height: 30px;
+}
+
+.li-item {
+    color: blue;
+}
+
+.li-text {
+    color: #000000;
+}
+
+.link-resume :hover {
+    background: #f8eedf;
+    transition: 2s ease;
+    padding-left: 10px;
+    color: blue;
+}
+
+.my-photo {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.about-me {
+    background:  #f8eedf;
+    font-size: 12px;
+    width: 60%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+}
+
+h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #0d0855;
+}
+
+h3 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
